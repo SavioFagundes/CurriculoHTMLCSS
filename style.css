@@ -1,0 +1,71 @@
+*{}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+.cabecalho{
+    text-align: center;
+    margin: 2px;
+}
+.navegacao {
+    background-color: #0056b3;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navegacao__links {
+    color: white;
+    margin: 0 0px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.apresentacao {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+.apresentacao__conhecimentos__lista__item{
+    text-decoration: none;
+    text-decoration-line: none;
+    list-style-type: none
+}
+.ponto__lista{
+    list-style-type: none
+}
+.escolaridade{
+    display: inline-block;
+    justify-content: end;
+}
+.esquerda, .direita {
+    padding: 5px 10px;
+}
+.titulo{
+    font-size: 18px;
+}
+h1, h2 {
+    color: #007bff;
+}
+footer {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.button:hover {
+    background-color: #0056b3;
+}
